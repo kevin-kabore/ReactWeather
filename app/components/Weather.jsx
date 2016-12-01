@@ -44,6 +44,6 @@ var Weather = React.createClass({
       </div>
     )
   }
-})
+}         )
 
 module.exports = Weather;
