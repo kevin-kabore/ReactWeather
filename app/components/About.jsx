@@ -4,7 +4,7 @@ var React = require('react');
 var About = (props) => {
   return (
     <div>
-        <h1 className="text-center">About Component</h1>
+        <h1 className="text-center page-title">About Component</h1>
         <p>This is an applications that allows users to display find the temperature in different cities. It is built using Javascript & React using JSX. It also consumes the OpenWeatherMap API to gather temperature.</p>
 
       <p>Here are a few places where you can learn about the project and me:</p>
