@@ -1,7 +1,7 @@
 //npm Install axios and require
 var axios = require('axios');
 
-const OPEN_WEATHER_MAP_URL = 'http://api.openweathermap.org/data/2.5/weather?appid=3db8d7ab93aff27090e5f6ad91e4e81a&units=imperial'
+const OPEN_WEATHER_MAP_URL = 'http://api.openweathermap.org/data/2.5/weather?appid=3db8d7ab93aff27090e5f6ad91e4e81a&units=imperial';
 
 // Api key
 // 3db8d7ab93aff27090e5f6ad91e4e81a
@@ -18,7 +18,7 @@ module.exports = {
       } else {
         return res.data.main.temp
       }
-    }, function(err){
+    }, function(res){
       throw new Error('Unable to fetch weather for that location.')
     });
   }
